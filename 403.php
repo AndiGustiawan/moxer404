@@ -8,7 +8,7 @@ var coba = 1;
    p = prompt("Tuliskan password dengan benar","");
    if (p=="110420")
     {
-      alert("Selamat Datang SOBAT CATATAN SEDERHANA");
+      alert("PRIVATE");
       window.open("private.txt");
       break;
     }
