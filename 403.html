@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>PRIVATE</title>
+	<style>
+	.link-button{
+		text-decoration: none;
+		background-color: #eeeeee;
+		color: black;
+		padding: 2px 6px 2px 6px;
+		border: 1px solid #c2c2c2;
+		border-radius:2px;
+	}
+	</style>
+</head>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- menyembunyikan script dan browser non-JS
+function pass()
+{
+var coba = 1;
+ do
+  {
+   p = prompt("Tuliskan password dengan benar","");
+   if (p=="110420")
+    {
+      alert("PRIVATE");
+      window.open("private.txt");
+      break;
+    }
+   else
+    {
+      alert("Password Salah !!! Ulangi lagi.");
+    }
+   if (coba==3)
+    {
+      alert("maaf, kesempatan anda hanya 3 kali");
+     history.go(-1);
+    }
+  coba=coba+1;
+  }
+ while (coba<=3)
+}              
+// akhir dari penyembunyian -->
+</SCRIPT>
+<FORM METHOD="post">
+<INPUT TYPE="button" VALUE="Password" ONCLICK="pass()">
+</FORM>
+</BODY>
+</HTML>
